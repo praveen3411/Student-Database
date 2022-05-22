@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#boom{
+    background-color: black;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 3px wheat;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+a:hover{
+    color: aqua;
+}
+#container{
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    box-shadow:2px 2px 3px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(to left,orange,skyblue);
+}
+#container h1{
+    text-align: center  ;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    border: inset;
+    text-align: center;
+}
+#seven{
+    background:radial-gradient(farthest-side,rgb(188, 249, 246),rgb(166, 196, 239));
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#attach{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,auto);
+    grid-gap: 10px;
+}
+#attach>div{
+    width: 410px;
+    height: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(169, 193, 241);
+}
+#attach img{
+    width: 410px;
+    height: 400px;
+}
+#attach h2,h3,h4{
+    text-align: center;
+    margin: 4px;
+}
+#attach button{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    transform: translateX(160px);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background: lightgreen;
+    box-shadow: 2px 2px 3px lightseagreen;
+}
+#app{
+    word-spacing: 50px;
+}
